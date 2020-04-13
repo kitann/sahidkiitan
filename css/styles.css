@@ -6,8 +6,31 @@ div {
 }
 
 h1 {
-  margin-top: 0;
+  margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+
+  }
+
+span {
+  text-decoration: underline;
+}
+
+h3 {
+
+  text-align: left;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
 }
 
 body {
@@ -19,26 +42,14 @@ body {
 .top-container {
   background-color: #E4F9F5;
   padding-top: 100px;
+  line-height: 1;
 }
 
-.middle-container {
+.middle-container {}
 
-}
+.bottom-container {}
 
-.bottom-container {
 
-}
-
-div .div {
-  margin: 0;
-}
-
-h3 {
-  padding-top: 40%;
-  text-align: center;
-  margin: 0;
-  font-family: 'Montserrat', sans-serif;
-}
 
 .bottom-cloud {
   position: absolute;
@@ -54,5 +65,43 @@ h3 {
 
 div.profile {
   background-color: white;
+}
 
+img.kiitan {
+  height: 200px;
+  width: 200px;
+}
+
+.skill-row {
+  width: 30%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+  padding-top: 0;
+
+
+}
+
+.chilli-img {
+  width: 35%;
+  float: right;
+  margin-left: 30px;
+}
+
+.code-img {
+  width: 35%;
+  float: left;
+  margin-right: 30px;
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+
+}
+
+img.code-img {
+  padding-top: 0;
+}
+
+p.bio {
+  line-height: 2;
 }
