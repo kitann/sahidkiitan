@@ -72,14 +72,21 @@ img.kids {
 }
 
 .skill-row {
-  width: 30%;
+  width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
   padding-top: 0;
 }
 
+.skill-row-bottom {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  padding-top: 60px;
+
+}
+
 .chilli-img {
-  width: 35%;
+  width: 45%;
   float: right;
   margin-left: 30px;
 }
