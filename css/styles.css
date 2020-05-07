@@ -53,6 +53,7 @@ body {
   position: absolute;
   left: 20px;
   top: 380px;
+  height: 60px;
 
 }
 
@@ -120,6 +121,12 @@ hr {
 
 p {
   line-height: 2;
+}
+
+.header {
+  position: absolute;
+  top: 10px;
+
 }
 
 .btn {
