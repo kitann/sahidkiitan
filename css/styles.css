@@ -179,4 +179,6 @@ a {
 
 a:hover {
   color: #eaf6f6;
+  font-weight: bold;
+  
 }
